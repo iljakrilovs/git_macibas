@@ -1,0 +1,104 @@
+/* Pamatstils */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Kreisā sadaļa */
+.left-section {
+    background: linear-gradient(to bottom, #4C9AFF, #0073FF);
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.left-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.image-placeholder img {
+    width: 200px;
+    height: auto;
+}
+
+/* Labā sadaļa */
+.right-section {
+    background: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.right-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.right-section p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.primary-btn, .secondary-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background-color: #0073FF;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: white;
+    color: #0073FF;
+    border: 1px solid #0073FF;
+}
+
+.primary-btn:hover, .secondary-btn:hover {
+    opacity: 0.9;
+}
+
+.error-btn {
+    background-color: #FF4C4C;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.error-btn:hover {
+    background-color: #E03C3C;
+}
